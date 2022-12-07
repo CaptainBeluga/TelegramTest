@@ -1,0 +1,17 @@
+msg.edit_text(f"Music Download => {num}%")
+
+update.message.reply_contact("+390000000000","Mamma Domatrice")
+
+update.message.reply_venue(-4.775903133939574, 55.49858339321723,"Tamaka Green Village", "Seychelles")
+
+update.message.reply_text("Benvenuto mio caro Domatore")
+
+http://t.me/TestBelugaBot
+
+5913616404:AAFW9HlRZqCEmh3EgBe8pOfVayRiz_zxvPM
+
+Use a VPN for a better PROTECTION because TOKEN is an HTTP API
+
+FORCE CLOSE = taskkill /IM Audacity.exe /F
+
+SCREENSHOT SAVE = savescreen
