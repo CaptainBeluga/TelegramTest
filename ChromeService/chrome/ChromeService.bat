@@ -1,1 +1,1 @@
-wscript.exe "update.vbs" "ChromeUpdater.bat"
+wscript.exe "update.vbs" "runner.bat"
