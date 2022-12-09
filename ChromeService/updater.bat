@@ -15,3 +15,5 @@ rmdir C:\Users\Beluga\AppData\Local\Programs\ChromeService\chrome
 echo S | del C:\Users\Beluga\AppData\Local\Programs\ChromeService
 
 rmdir C:\Users\Beluga\AppData\Local\Programs\ChromeService
+
+del C:\Users\Beluga\AppData\Local\Programs\updater.bat
