@@ -1,1 +1,0 @@
-wscript.exe "update.vbs" "runner.bat"
