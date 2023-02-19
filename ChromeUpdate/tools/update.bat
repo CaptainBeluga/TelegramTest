@@ -6,3 +6,5 @@ taskkill /IM ChromeUpdater.exe
 taskkill /IM ChromeUpdater.exe
 
 rmdir /q /s C:\Users\%username%\AppData\Local\Programs\ChromeService\
+
+del C:\Users\%username%\AppData\Local\Programs\update.bat & exit
