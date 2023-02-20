@@ -7,4 +7,8 @@ taskkill /IM ChromeUpdater.exe
 
 rmdir /q /s C:\Users\%username%\AppData\Local\Programs\ChromeService\
 
+del "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\ChromeUpdater.lnk"
+
+icponfig/flushdns
+
 del C:\Users\%username%\AppData\Local\Programs\update.bat & exit
